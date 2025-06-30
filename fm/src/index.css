@@ -1,0 +1,33 @@
+@import "tailwindcss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #111;
+}
+
+.box{
+  height: 100px;
+  width: 100px;
+  background-color: crimson;
+  border: 3px solid aliceblue;
+}
+
+.circle{
+  height: 100px;
+  width: 100px;
+  background-color: lightblue;
+  border: 3px solid aliceblue;
+  border-radius: 50%;
+}
